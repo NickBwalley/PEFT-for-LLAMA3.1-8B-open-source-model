@@ -107,7 +107,8 @@ bnb_config = BitsAndBytesConfig(
 model = AutoModelForCausalLM.from_pretrained("meta-llama/Llama-3-405B", quantization_config=bnb_config)
 ```
 Performance Comparison (Llama3.1-8B vs 70B vs 405B)
-Model	FullFine-Tuning   VRAM	LoRA   VRAM	QLoRA VRAM	  Double Quantization VRAM
-Llama3.1-8B	  ~100GB	  ~24GB	      ~10GB	              ~8GB
-Llama3.1-70B	~800GB	  ~180GB	    ~48GB               ~36GB
-Llama3.1-405B	~5TB	    ~2TB	      ~600GB	            ~450GB
+
+Model	Full Fine-Tuning VRAM	LoRA VRAM	QLoRA VRAM	Double Quantization VRAM
+Llama3.1-8B	~100GB	~24GB	~10GB	~8GB
+Llama3.1-70B	~800GB	~180GB	~48GB	~36GB
+Llama3.1-405B	~5TB	~2TB	~600GB	~450GB
