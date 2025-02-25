@@ -1,4 +1,4 @@
-# **Parameter-Efficient Fine-Tuning (PEFT) for Large Language Models using Hugging Face**
+# **Parameter-Efficient Fine-Tuning (PEFT) for Large Language Models LLAMA3.1-8B-OPEN-SOURCE-MODEL**
 
 ## **Introduction**
 Fine-tuning **Large Language Models (LLMs)** from scratch requires extensive compute resources and memory. **Parameter-Efficient Fine-Tuning (PEFT)** provides a lightweight alternative, enabling efficient adaptation of large-scale models while optimizing for memory and compute efficiency.
