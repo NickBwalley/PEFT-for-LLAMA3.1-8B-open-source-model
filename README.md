@@ -1,4 +1,4 @@
-# **Parameter-Efficient Fine-Tuning (PEFT) for Large Language Models. 
+# Parameter-Efficient Fine-Tuning (PEFT) for Large Language Models. 
 ## Note: In this project we fine-tuned our quantized open source model LLAMA3.1-8B that outperformed the monstrous ChatGPT 4o with 1.76T+ Params for our product price predictor**
 
 ## **Introduction**
